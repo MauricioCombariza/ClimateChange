@@ -12,7 +12,7 @@ temperature = pd.read_csv(Path(__file__).parent / 'temperatures.csv')
 # Values from dropdown
 countries = temperature['Country'].unique().tolist()
 
-# CSS
+# CSS general
 font_style = "font-weight:100";
 
 # Values for slider
